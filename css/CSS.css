@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: black;
+    background-size: cover;
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+    border-radius: 50%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Oldenburg', cursive;
+    color: #ff7300;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("https://i.pinimg.com/originals/7a/cf/fa/7acffabfef46524d0187254e511668f6.jpg");
+    background-size: cover;
+    border-bottom: #6e0606;
+}
+
+hr {
+    border: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    background-color: rgba(0, 5, 5, 0.654);
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Oldenburg', cursive;
+    background-color: rgba(0, 5, 5, 0.654);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo-principal-escrito-botao {
+    font-family: 'Oldenburg', cursive;
+    background-color: #ffffff;
+    color: #000000;
+    width: 185px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 24px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(243, 1, 1, 0.317);
+    cursor: pointer;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgb(0, 0, 0);
+    color: #f9f9f9;
+}
+
+.conteudo-principal-imagem {
+    height: 500px;
+    padding: 50px;
+
+
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFF2EF;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Oldenburg', cursive;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-imagem {
+    height: 48px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.rodape-conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: #ffffff;
+    font-family: 'Oldenburg', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.card-img-top{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.fracoes-imagens{
+    flex-basis: 60%;
+}
+.fracoes-bloco {
+    gap: 18px;
+    display: flex;
+    align-items: flex-start;   
+}
+.letra-fracoes{
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.video-youtube {
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    width: 100%;
+}
+
+.rodape-conteudo-esquerda-texto {
+    font-family: 'Oldenburg', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+ .card-img-top {
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: 40px;
+ }
+ .card-title {
+    font-family: 'Oldenburg', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+ }
+
